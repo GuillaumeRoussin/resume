@@ -1,10 +1,209 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Mon cv</title>
+    <title>Mon CV</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-5.css">
 </head>
+
 <body>
-    <h1>Guillaume Roussin</h1>
+<div class="wrapper mt-lg-5" id="my-resume">
+    <div class="sidebar-wrapper">
+        <div class="profile-container">
+            <img class="profile" src="assets/images/D1B0961C-1D94-405E-8A1C-54AC981FE32F_1_201_a.jpg" alt="" width="150"
+                 height="150"/>
+            <h1 class="name">Guillaume Roussin</h1>
+            <h3 class="tagline">Full Stack Développeur</h3>
+            <h3 class="tagline">Gestion de projet</h3>
+        </div><!--//profile-container-->
+
+        <div class="contact-container container-block">
+            <ul class="list-unstyled contact-list">
+                <li class="email"><i class="fa-solid fa-envelope"></i><a href="mailto: guillaumeroussin.pr@gmail.com">guillaumeroussin.pr@gmail.com</a>
+                </li>
+                <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:06 22 15 71 66">06 22 15 71 66</a></li>
+                <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a
+                        href="https://www.linkedin.com/in/guillaume-roussin-915559181/" target="_blank">linkedin.com/in/guillaume-roussin-915559181</a>
+                </li>
+                <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/GuillaumeRoussin"
+                                                                         target="_blank">github.com/GuillaumeRoussin</a>
+                </li>
+            </ul>
+        </div><!--//contact-container-->
+
+        <div class="interests-container container-block">
+            <h2 class="container-block-title">Compétences</h2>
+            <h3 class="container-block-subtitle">Techniques</h3>
+            <ul class="list-unstyled interests-list">
+                <li>PHP, Symfony, Api platform,</li>
+                <li>Springboot, Java, Angular,</li>
+                <li>Javascript, Typescript, React</li>
+            </ul>
+            <br/>
+            <h3 class="container-block-subtitle">Projets</h3>
+            <ul class="list-unstyled interests-list">
+                <li>Gestion de projet méthode agile,</li>
+                <li>Méthode kanban, Scrum,</li>
+                <li>Jira, Zenhub</li>
+            </ul>
+        </div><!--//interests-->
+
+        <div class="languages-container container-block">
+            <h2 class="container-block-title">Langues</h2>
+            <ul class="list-unstyled interests-list">
+                <li>Français <span class="lang-desc">(Courant)</span></li>
+                <li>Anglais <span class="lang-desc">(Professionel)</span></li>
+            </ul>
+        </div><!--//interests-->
+
+
+    </div><!--//sidebar-wrapper-->
+
+    <div class="main-wrapper">
+
+        <section class="section summary-section">
+            <div class="summary">
+                <p><b>Développeur web full stack</b> spécialisé dans la conception d'applications métiers,
+                    avec une forte capacité à adopter de nouvelles technologies tout en étant à l'aise avec des solutions plus traditionnelles.
+                    Rapide à comprendre les besoins clients, je les traduis en modèles flexibles et évolutifs. Expérimenté en <b>gestion de projets agiles</b>,
+                    j'utilise les méthodes <b>Kanban</b> et <b>Scrum</b> pour garantir des livrables optimisés et adaptés aux attentes.
+                    Je réalise également une <b>veille technologique</b> régulière, afin de rester à jour sur les dernières tendances et innovations, et ainsi proposer des solutions toujours pertinentes et performantes.
+                </p>
+            </div><!--//summary-->
+        </section><!--//section-->
+
+        <section class="section experiences-section">
+            <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Expériences
+            </h2>
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Indépendant</h3>
+                        <div class="time">2024 - Présent</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Timgroup</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p>TimGroup est une entreprise spécialisée dans l'ingénierie informatique et la communication numérique, regroupant des experts indépendants pour mettre en commun leurs compétences.</p>
+                </div><!--//details-->
+            </div><!--//item-->
+
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Indépendant</h3>
+                        <div class="time">2021 - Présent</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Guillaume Roussin</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p>Réalisation de prestations pour différents projets en étant à mon compte.</p>
+                </div><!--//details-->
+            </div><!--//item-->
+
+        </section><!--//section-->
+
+        <section class="section projects-section">
+            <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-archive"></i></span>Projets</h2>
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Full stack développeur - Gestion de projet </h3>
+                        <div class="time">2023 - 2024</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Kompliant</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p>Développement d'une application web d'intermédiation entre prestataires et clients (grand compte).</p>
+                    <ul>
+                        <li>Backend : PHP 8.2, Symfony 6.4 - (Messenger, Webhooks, Schedulers, Validators, Voters et d’Api Platform State processor, state provider, DTOs)</li>
+                        <li>Stockage de document dans S3, Système de notifications, Chiffrement des données (RGPD)</li>
+                        <li>Rédaction de test d'intégration avec PHPUnit</li>
+                        <li>Intégration de <a href="https://www.lemonway.com/">Lemonway</a> service de paiement</li>
+                        <li>Frontend : React, Typescript, MUI, React hook-form, React query, Axios, Zod</li>
+                        <li>Gestion de projet : Utilisation de Zenhub, configuration de sprint et de planning poker. Rédaction des tâches (Kanban) et des attentes Clients. Scrum team de 3 développeurs.</li>
+                    </ul>
+                </div><!--//details-->
+            </div><!--//item-->
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Full stack développeur</h3>
+                        <div class="time">2022</div>
+                    </div><!--//upper-row-->
+                    <div class="company">128K</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p>Service de sauvegarde de serveur avec interface (web) de reporting.</p>
+                    <ul>
+                        <li>Backend : Parsing de log et système de notifications (alertes pour les différences de données des sauvegardes, si pas de remonté de log ...), PHP, Regex, SQL pour les données de reporting</li>
+                        <li>Frontend : Tableau de bord et graphiques de reporting admin et client, Html, Javascript, Css, Jquery, Chart JS.</li>
+                    </ul>
+                </div><!--//details-->
+            </div><!--//item-->
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">Full stack développeur - Gestion de projet </h3>
+                        <div class="time">2021 - Présent</div>
+                    </div><!--//upper-row-->
+                    <div class="company">Dtalents</div>
+                </div><!--//meta-->
+                <div class="details">
+                    <p>Gestion du Système d'information. Développement d'outils pour les sociétés du groupe.</p>
+                    <ul>
+                        <li>
+                            Dtalents Formations - Interfaçage entre <a href="https://www.digiforma.com/">Digiforma</a> et <a href="https://www.sage.com/fr-fr/">Sage</a>
+                            pour génération de facture depuis des sessions de formations venant de Digiforma et création de session.
+                            <ul>
+                                <li>Backend : Symfony, Api platform, Graphql (Api digiforma), Export pour Sage</li>
+                                <li>Frontend : React, Zod, Typescript, Axios</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Dtalents - Système d'information société de portage salarial. Interfaçage avec <a href="https://www.sage.com/fr-fr/">Sage</a> pour récupération de données.
+                            Projet de récupération de déclaration d'activité. Architecture CQRS. Génération de contrat - avenant.
+                            <ul>
+                                <li>Backend : Symfony (Messenger, Scheduler), Turbo, S3 (stockage cloud)</li>
+                                <li>Frontend : Twig, Stimulus, Javascript, SCSS</li>
+                                <li>Gestion de projet : Utilisation de Zenhub, configuration de sprint et de planning poker. Rédaction des tâches (Kanban) et des attentes Clients. Scrum team de 2 développeurs.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Dtalents - Zoho CRM
+                            <ul>
+                                <li>Configuration du CRM pour le besoin Client : Workflows, Automatisations, Canvas, Fonction avec Deluge, Templates</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--//details-->
+            </div><!--//item-->
+        </section><!--//section-->
+
+    </div><!--//main-body-->
+</div>
+
+<footer class="footer">
+    <div class="text-center">
+        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <small class="copyright">Designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+    </div><!--//container-->
+</footer><!--//footer-->
 </body>
-</html>
+</html> 
+
