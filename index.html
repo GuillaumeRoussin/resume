@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/orbit-5.css">
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>-->
 </head>
 
 <body>
@@ -26,7 +28,7 @@
         <div class="profile-container">
             <img class="profile" src="assets/images/D1B0961C-1D94-405E-8A1C-54AC981FE32F_1_201_a.jpg" alt="" width="150"
                  height="150"/>
-            <h1 class="name">Guillaume Roussin</h1>
+            <h1 class="name" id="download-pdf">Guillaume Roussin</h1>
             <h3 class="tagline">Full Stack Développeur</h3>
             <h3 class="tagline">Gestion de projet</h3>
         </div><!--//profile-container-->
@@ -112,7 +114,7 @@
                     <div class="company">Guillaume Roussin</div>
                 </div><!--//meta-->
                 <div class="details">
-                    <p>Réalisation de prestations pour différents projets en étant à mon compte.</p>
+                    <p>Réalisation de prestations dans le cadre de différents projets en étant à mon compte.</p>
                 </div><!--//details-->
             </div><!--//item-->
 
@@ -165,7 +167,7 @@
                     <div class="company">Dtalents</div>
                 </div><!--//meta-->
                 <div class="details">
-                    <p>Gestion du Système d'information. Développement d'outils pour les sociétés du groupe.</p>
+                    <p>Gestion du Système d'information et des projets. Développement d'outils pour les sociétés du groupe.</p>
                     <ul>
                         <li>
                             Dtalents Formations - Interfaçage entre <a href="https://www.digiforma.com/">Digiforma</a> et <a href="https://www.sage.com/fr-fr/">Sage</a>
@@ -177,17 +179,17 @@
                         </li>
                         <li>
                             Dtalents - Système d'information société de portage salarial. Interfaçage avec <a href="https://www.sage.com/fr-fr/">Sage</a> pour récupération de données.
-                            Projet de récupération de déclaration d'activité. Architecture CQRS. Génération de contrat - avenant.
+                            Projet de récupération de déclaration d'activité. Architecture CQRS. Génération de contrats - avenants.
                             <ul>
                                 <li>Backend : Symfony (Messenger, Scheduler), Turbo, S3 (stockage cloud)</li>
                                 <li>Frontend : Twig, Stimulus, Javascript, SCSS</li>
-                                <li>Gestion de projet : Utilisation de Zenhub, configuration de sprint et de planning poker. Rédaction des tâches (Kanban) et des attentes Clients. Scrum team de 2 développeurs.</li>
+                                <li>Gestion de projet : Utilisation de <a href="https://www.zenhub.com/">Zenhub</a>, configuration de sprint et de planning poker. Rédaction des tâches (Kanban) et des attentes Clients. Scrum team de 2 développeurs.</li>
                             </ul>
                         </li>
                         <li>
                             Dtalents - Zoho CRM
                             <ul>
-                                <li>Configuration du CRM pour le besoin Client : Workflows, Automatisations, Canvas, Fonction avec Deluge, Templates</li>
+                                <li>Configuration du CRM pour le besoin Client : Workflows, Automatisations, Canvas, Fonctions avec <a href="https://www.zoho.com/deluge/">Deluge</a>, Templates</li>
                             </ul>
                         </li>
                     </ul>
@@ -204,6 +206,20 @@
         <small class="copyright">Designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
     </div><!--//container-->
 </footer><!--//footer-->
+<!--<script>-->
+<!--    document.getElementById('download-pdf').addEventListener('click', function() {-->
+<!--        const element = document.getElementById('my-resume');-->
+<!--        html2canvas(element).then(canvas => {-->
+<!--            const imgData = canvas.toDataURL('image/png');-->
+
+<!--            // Create a link element to download the image-->
+<!--            const link = document.createElement('a');-->
+<!--            link.href = imgData;-->
+<!--            link.download = 'converted-image.png'; // Name of the downloaded image-->
+<!--            link.click();-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
 </body>
 </html> 
 
