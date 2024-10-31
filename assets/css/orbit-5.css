@@ -89,7 +89,7 @@ p {
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -98,7 +98,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px 30px 20px 30px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -153,7 +153,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .interests-list li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
@@ -199,7 +199,7 @@ p {
   margin-top: 6px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -300,5 +300,17 @@ p {
     float: left;
     width: 30%;
     margin-bottom: 0;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+}
+
+@media print {
+  .mt-lg-5 {
+    margin-top: 0 !important;
   }
 }
